@@ -1,6 +1,23 @@
-# tray-retail-sales-vue
+# Tray API Vue
 
 Este é um projeto Vue.js que cria interfaces para interagir com as APIs Laravel do projeto 'tray-retail-sales-pro'.
+
+## Instalação
+
+1. Clone o repositório:
+
+```bash
+
+git clone git@github.com:fyosetake/tray-api-vue.git
+
+```
+2. Navegue até o diretório do projeto:
+
+```bash
+
+cd tray-api-laravel
+
+```
 
 ## Pré-requisitos
 
@@ -11,6 +28,7 @@ Antes de começar, certifique-se de ter instalado o [Node.js](https://nodejs.org
 npm install
 
 ```
+
 ## Como executar a aplicação
 
 Para iniciar a aplicação, use o seguinte comando:
