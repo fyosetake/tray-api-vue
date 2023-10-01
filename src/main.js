@@ -14,6 +14,7 @@ import AutenticarUsuario from './components/AutenticarUsuario.vue';
 import RegistrarUsuario from './components/RegistrarUsuario.vue';
 
 const routes = [
+    { path: '', component: PaginaInicial },
     { path: '/autenticar-usuario', component: AutenticarUsuario },
     { path: '/registrar-usuario', component: RegistrarUsuario },
     { path: '/pagina-inicial', component: PaginaInicial },
