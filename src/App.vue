@@ -7,6 +7,7 @@
           <router-link to="/pagina-inicial" @click="encerrarSessao">Sair</router-link>
           <router-link to="/autenticar-usuario">Entrar</router-link>
           <router-link to="/registrar-usuario">Registrar-se</router-link>
+          <router-link to="/email-vendedor">E-mail Vendedor</router-link>
 
           <!-- Dropdown "Vendedores" -->
           <div class="dropdown">

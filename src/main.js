@@ -12,12 +12,14 @@ import ExcluirVendedor from './components/ExcluirVendedor.vue';
 import PaginaInicial from './components/PaginaInicial.vue';
 import AutenticarUsuario from './components/AutenticarUsuario.vue';
 import RegistrarUsuario from './components/RegistrarUsuario.vue';
+import EnviarEmailVendedor from './components/EnviarEmailVendedor.vue';
 
 const routes = [
     { path: '', component: PaginaInicial },
     { path: '/autenticar-usuario', component: AutenticarUsuario },
     { path: '/registrar-usuario', component: RegistrarUsuario },
     { path: '/pagina-inicial', component: PaginaInicial },
+    { path: '/email-vendedor', component: EnviarEmailVendedor },
     { path: '/cadastrar-vendedor', component: CadastrarVendedor },
     { path: '/cadastrar-venda', component: CadastrarVenda },
     { path: '/editar-vendedor', component: EditarVendedor },
