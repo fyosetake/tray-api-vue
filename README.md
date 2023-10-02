@@ -15,7 +15,7 @@ git clone git@github.com:fyosetake/tray-api-vue.git
 
 ```bash
 
-cd tray-api-laravel
+cd tray-api-vue
 
 ```
 
