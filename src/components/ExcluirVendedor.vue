@@ -52,7 +52,7 @@ export default {
       // Obtenha o token de autenticação do localStorage
       const token = localStorage.getItem('token');
 
-      axios.delete(`http://localhost:80/api/deletarVendedor/${this.vendedorId}`, {
+      axios.delete(`http://localhost:80/api/vendedor/deletar/${this.vendedorId}`, {
         headers: {
           'Authorization': `Bearer ${token}`
         }

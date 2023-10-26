@@ -58,7 +58,7 @@ export default {
       // Obtenha o token de autenticação do localStorage
       const token = localStorage.getItem('token');
 
-      axios.post('http://localhost:80/api/enviarEmail', {
+      axios.post('http://localhost:80/api/email/enviar', {
         data: this.data,
         vendedor_id: this.vendedorId
       }, {

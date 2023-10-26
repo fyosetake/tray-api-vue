@@ -37,7 +37,7 @@ export default {
         email: this.email
       };
 
-      axios.post('http://localhost:80/api/cadastrarVendedor', data, {
+      axios.post('http://localhost:80/api/vendedor/cadastrar', data, {
         headers: {
           'Authorization': `Bearer ${token}`
         }

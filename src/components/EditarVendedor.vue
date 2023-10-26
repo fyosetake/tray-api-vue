@@ -72,7 +72,7 @@ export default {
         email: this.email
       };
 
-      axios.put(`http://localhost:80/api/editarVendedor/${this.vendedorId}`, data, {
+      axios.put(`http://localhost:80/api/vendedor/editar/${this.vendedorId}`, data, {
         headers: {
           'Authorization': `Bearer ${token}`
         }

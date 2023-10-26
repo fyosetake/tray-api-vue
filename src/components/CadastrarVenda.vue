@@ -41,7 +41,7 @@ export default {
         data: this.data
       };
 
-      axios.post('http://localhost:80/api/cadastrarVenda', vendaData, {
+      axios.post('http://localhost:80/api/venda/cadastrar', vendaData, {
         headers: {
           'Authorization': `Bearer ${token}`
         }

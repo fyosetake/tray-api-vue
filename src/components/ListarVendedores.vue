@@ -26,7 +26,7 @@ export default {
     const token = localStorage.getItem('token');
 
     // Fazer a requisição para obter a lista de vendedores ao iniciar o componente
-    axios.get('http://localhost:80/api/listarVendedores', {
+    axios.get('http://localhost:80/api/vendedor/listar', {
       headers: {
         'Authorization': `Bearer ${token}`
       }
