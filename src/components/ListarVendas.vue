@@ -24,7 +24,7 @@ export default {
     const token = localStorage.getItem('token');
 
     // Fazer a requisição para obter a lista de vendas ao iniciar o componente
-    fetch('http://localhost:80/api/listarVendas', {
+    fetch('http://localhost:80/api/venda/listar', {
       method: 'GET',
       headers: {
         'Authorization': `Bearer ${token}`

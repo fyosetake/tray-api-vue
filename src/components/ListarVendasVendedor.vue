@@ -66,7 +66,7 @@ export default {
       // Obtenha o token de autenticação do localStorage
       const token = localStorage.getItem('token');
 
-      axios.get(`http://localhost:80/api/listarVendas/Vendedor/${vendedorId}`, {
+      axios.get(`http://localhost:80/api/venda/listar/vendedor/${vendedorId}`, {
         headers: {
           'Authorization': `Bearer ${token}`
         }
